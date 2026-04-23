@@ -1,12 +1,7 @@
-# Site identity
 title: Place Matters: Regional Risks in Breast Cancer Mortality
 description: Data Science Portfolio
-
-# Theme settings
 remote_theme: yaoyao-liu/minimal-light
 plugins:
   - jekyll-remote-theme
-
-# URL settings
 url: "https://Blackfemalebreastcancernis.github.io"
 baseurl: ""
