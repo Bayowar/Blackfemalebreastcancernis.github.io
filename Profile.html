@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Portfolio</title>
+    <style>
+        /* simple styling for better visual separation */
+        .embed-container {
+            margin: 2rem 0;
+            padding: 1rem;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        .embed-container h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Data Science Portfolio</h1>
+    <h2>Bayowa Onabajo</h2>
+    <h3>Contact</h3>
+    <p>
+        <a href="mailto:bayowa.onabajo@bison.howard.edu">Email</a>,
+        <a href="mailto:bayoonabajo1@yahoo.com">Email</a> |
+        <a href="https://www.linkedin.com/in/bayowa-o-onabajo-mbchb-3b7993170/">LinkedIn</a> |
+        <a href="https://github.com/Bayowar">Github</a>
+    </p>
+
+    <p>CV: <a href="2025_DigitalResume.html">CV Bayowa</a></p>
+
+    <h2>Place Matters: Regional Risks in Breast Cancer Mortality</h2>
+
+    <h3>The Influence of Clinical and Structural Factors on In-Hospital Breast Cancer Mortality Among Black Women</h3>
+    <p>This project examines how clinical severity and structural determinants of health jointly influence in-hospital breast cancer mortality among non-Hispanic Black women in the United States. Despite advances in screening and treatment, Black women continue to experience disproportionately higher mortality rates compared to other racial groups. Using the 2021 National Inpatient Sample (NIS), this study employs statistical and machine learning techniques to identify the most significant predictors of in-hospital death. The findings demonstrate that geographic region, insurance status, and socioeconomic context can influence survival outcomes as strongly as clinical disease severity, highlighting the critical role of structural inequities in shaping health outcomes. Our research assesses the influence of structural determinants such as insurance type, neighborhood income, and geographic region. We develop a predictive machine learning model to estimate mortality risk and introduce a Structural Inequity Gap Scorin system to measure disparities attributable to systemic factors. <a href="https://github.com/Bayowar/BlackFemaleBreastCA/blob/f3b330d275d9177a63ab57206f05f09d989d1369/Capstone.ipynb">Statistical analysis and Machine learning model file link here</a>.</p>
+    <h4>Ethical Framework </h4> 
+    <p>This analysis centers on non‑Hispanic Black women hospitalized with breast cancer in the United States. Despite overall declines in cancer mortality, this group continues to experience a persistent, unjust survival disadvantage. <a href="https://github.com/Bayowar/BlackFemaleBreastCA.md/blob/40e80ff1dba9d086a0d6ac4e848a2db1bf58e5d5/social_justice_view.md">Click here to continue reading</a>.</p>
+
+    <!-- Flourish Story Embed -->
+    <div class="embed-container">
+        <h3>Interactive Story: Regional Risks in Breast Cancer Mortality</h3>
+        <div class="flourish-embed" data-src="story/3646484">
+            <script src="https://public.flourish.studio/resources/embed.js"></script>
+            <noscript>
+                <img src="https://public.flourish.studio/story/3646484/thumbnail" width="100%" alt="Flourish visualization" />
+            </noscript>
+        </div>
+    </div>
+
+    <!-- Tableau Dashboard Embed -->
+    <div class="embed-container">
+        <h3>Breast Cancer Mortality Risk Predictor – NIS 2021 (Tableau Dashboard)</h3>
+        <div class='tableauPlaceholder' id='viz1776962585144' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='Breast Cancer Mortality Risk Predictor - NIS 2021' src='https://public.tableau.com/static/images/Bl/BlackFemaleMortalityModel/Dashboard1/1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='BlackFemaleMortalityModel&#47;Dashboard1' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https://public.tableau.com/static/images/Bl/BlackFemaleMortalityModel/Dashboard1/1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+            </object>
+        </div>
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1776962585144');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            if (divElement.offsetWidth > 800) {
+                vizElement.style.width = '1720px';
+                vizElement.style.minHeight = '887px';
+                vizElement.style.maxHeight = '987px';
+                vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+            } else if (divElement.offsetWidth > 500) {
+                vizElement.style.width = '1720px';
+                vizElement.style.minHeight = '887px';
+                vizElement.style.maxHeight = '987px';
+                vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+            } else {
+                vizElement.style.width = '100%';
+                vizElement.style.height = '1727px';
+            }
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+    </div>
+
+</body>
+</html>
